@@ -1,0 +1,213 @@
+@media (min-width: 991px) {
+  .mainContent li {
+    width: 32%;
+  }
+  .mainContent li:nth-child(2) {
+    margin-top: 200px;
+  }
+  .mainContent li:nth-child(4) {
+    margin-top: -200px;
+  }
+  .mainContent li:nth-child(6) {
+    margin-top: -200px;
+  }
+  .mainContent li:nth-child(7) {
+    margin-top: -200px;
+  }
+  .mainContent li:nth-child(9) {
+    margin-top: -200px;
+  }
+  .mainContent {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .datingWeb {
+    display: none !important;
+    &::after {
+      display: none !important;
+    }
+  }
+  .mainContent li {
+    width: 45% !important;
+  }
+  .mainContent li:nth-child(2) {
+    margin-top: 0 !important;
+  }
+  .mainContent li:nth-child(4) {
+    margin-top: 0px !important;
+  }
+  .mainContent li:nth-child(6) {
+    margin-top: 0px !important;
+  }
+  .mainContent li:nth-child(7) {
+    margin-top: 0px !important;
+  }
+  .mainContent li:nth-child(9) {
+    margin-top: 0px !important;
+  }
+  .mainContent {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 48px auto 0px !important;
+  }
+  .datingWeb {
+    display: none !important;
+    &::after {
+      display: none !important;
+    }
+  }
+  .favorite {
+    display: none !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    background: $gray-100;
+  }
+  .navbar img {
+    width: 100px;
+    height: 28px;
+  }
+  .navbar-collapse {
+    margin-top: 12px;
+  }
+  .navbar-collapse ul {
+    height: calc(100vh - 87px);
+    display: block !important;
+    background: #f9f7f9;
+  }
+  .navbar-collapse li {
+    width: 100%;
+    padding: 0px 12px;
+  }
+  .navbar-collapse li:first-child {
+    padding-top: 48px;
+  }
+  .navbar-collapse li:not(:first-child) {
+    margin-top: 16px;
+  }
+  .navbar-collapse li a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    border-radius: 8px;
+    color: #94949f;
+    &:hover {
+      background: $secondaryLight;
+      color: #373640 !important;
+    }
+  }
+  .navActive {
+    background: $secondaryLight;
+    color: $secondary;
+  }
+  .mainContent li {
+    width: 100%;
+  }
+  main ul {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    display: block;
+  }
+  .overflowX ul li {
+    min-width: 80% !important;
+    min-height: 100% !important;
+    margin: auto!important;
+  }
+  .mainContent {
+    display: none !important;
+  }
+  .productName {
+    font-size: 20px !important;
+  }
+  .productIntro {
+    bottom: 12px;
+    left: 12px;
+    right: 6px;
+  }
+  .gender {
+    padding: 4px 8px !important;
+  }
+  .gender span:nth-child(2) {
+    font-size: 14px !important;
+  }
+  .card-body p {
+    font-size: 20px !important;
+  }
+  .serviceContent {
+    margin-top: 12px !important;
+  }
+  .card-body h6 {
+    font-size: 16px !important;
+  }
+  .card-body small {
+    margin-top: 4px !important;
+  }
+  .card a.position-absolute {
+    top: 12px;
+    right: 12px;
+  }
+  .comment ul li {
+    min-width: 80%;
+    padding: 20px 16px !important;
+  }
+  .comment ul {
+    justify-content: start !important;
+    margin-top: 40px !important;
+  }
+  .comment ul li p {
+    margin-top: 16px !important;
+  }
+  footer .container div:first-child {
+    margin-top: 24px !important;
+  }
+  footer img {
+    margin-top: 16px !important;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  footer ul li:not(:first-child) {
+    margin-left: 0px !important;
+  }
+  footer ul li {
+    text-align: center;
+  }
+  footer div div:first-child {
+    text-align: center;
+    margin-bottom: 0px !important;
+  }
+  footer div div:not(:first-child) {
+    display: flex;
+    flex-direction: column;
+  }
+  footer div div div:not(:first-child) {
+    display: block !important;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .notice {
+    font-size: 20px !important;
+  }
+  .fixedIcon a {
+    margin-right: 16px !important;
+    margin-bottom: 13px !important;
+  }
+}

@@ -1,0 +1,13 @@
+.mob-overflow{
+    overflow-x: scroll;
+    max-height: 100vh;
+    flex-shrink: 0;
+}
+
+.overflowX{
+    overflow-x: scroll;
+}
+
+.overflowY{
+    overflow-y: hidden;
+}

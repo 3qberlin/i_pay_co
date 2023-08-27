@@ -1,0 +1,43 @@
+.headerLink ul li:not(:nth-child(1)) {
+  padding-left: 12px;
+}
+
+.headerLink ul li a {
+  padding: 12px;
+}
+
+.ms--12 {
+  margin-left: -12px;
+}
+
+.me--12 {
+  margin-right: -12px;
+}
+
+.ps--12 {
+  padding-left: -12px !important;
+}
+
+.pe--12 {
+  padding-right: -12px !important;
+}
+
+.card a.position-absolute {
+  top: 24px;
+  right: 24px;
+}
+
+.productIntro {
+  bottom: 24px;
+  left: 24px;
+}
+
+.mainContent .card,
+.overflowX .card {
+  margin: 12px 0px 12px 0px !important;
+}
+
+.mainContent .card:first-child,
+.overflowX .card:first-child {
+  margin-left: 12px !important;
+}
