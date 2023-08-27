@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
     
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -18,8 +23,8 @@
       referrerpolicy="no-referrer"
     ></script>
     <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.css" />
-    <script type="module" crossorigin src="/i_pay_co/assets/index-8fd46302.js"></script>
-    <link rel="stylesheet" href="/i_pay_co/assets/index-5d3a4b0c.css">
+    <script type="module" crossorigin src="/i_pay_co/assets/index-15c28e0a.js"></script>
+    <link rel="stylesheet" href="/i_pay_co/assets/index-de7878d1.css">
   </head>
   <body class="position-relative">
     <div class="container-lg py-md-8">
@@ -325,7 +330,7 @@
     <ul
       class="mainContent list-unstyled d-flex gap-24 flex-wrap justify-content-between d-none d-xxl-block"
     >
-      <li>
+      <li data-aos="fade-down-right">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/01-ef52d53a.png" alt="01" class="img" />
@@ -364,7 +369,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/02-6e6764d4.png" alt="01" class="img" />
@@ -403,7 +408,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-up-left">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/03-ce43e8b4.png" alt="01" class="img" />
@@ -442,7 +447,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-right">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/04-b7c07c46.png" alt="01" class="img" />
@@ -481,7 +486,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-up">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/05-ed11b834.png" alt="01" class="img" />
@@ -520,7 +525,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-left">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/06-88870bf2.png" alt="01" class="img" />
@@ -558,8 +563,8 @@
             </section>
           </div>
         </div>
-      </li>
-      <li>
+      </li >
+      <li data-aos="fade-right">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/07-3727d294.png" alt="01" class="img" />
@@ -598,9 +603,9 @@
           </div>
         </div>
       </li>
-      <li class="d-none d-lg-block favorite">
+      <li data-aos="fade-up" class="d-none d-lg-block favorite animate__heartBeat">
         <div
-          class="d-flex flex-column justify-content-center align-items-center mt-24"
+          class="d-flex flex-column justify-content-center align-items-center mt-24 animate__heartBeat"
         >
           <img
             src="data:image/png;base64,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"
@@ -624,7 +629,7 @@
           </div>
         </div>
       </li>
-      <li>
+      <li data-aos="fade-left">
         <div class="card rounded-5 border-0 shadow">
           <div class="position-relative">
             <img src="/i_pay_co/assets/08-d118ae47.png" alt="01" class="img" />
@@ -1135,6 +1140,10 @@
       }
       menuOpen = !menuOpen;
     }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
   <script src="../assets/js/js.js"></script>
   
