@@ -4,17 +4,17 @@
 }
 
 .mobBg::after {
-  content: "333";
-  display: block;
-  width: 271px;
-  height: 43px;
-  background-image: url("../../images/web/decoration/01.png");
-  background-size: cover;
-  background-position: center;
+  content: "";
+  background-image: url("../assets/images/mobile/decoration/ds.svg");
+  width: 271px ;
+  height: 43px ;
   position: absolute;
   bottom: 0px;
   left: 0px;
+  // object-fit: cover;
   z-index: 100;
+  // position: center;
+
 }
 
 .img {
