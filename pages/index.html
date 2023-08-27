@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>i_pay</title>
+    <title>index</title>
     <link rel="stylesheet" href="../assets/scss/all.scss" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -47,25 +47,20 @@
       </section>
     </div>
     <div
-      class="d-block d-lg-none position-relative"
+      class="d-block d-lg-none mobBg position-relative"
       style="
         background-image: url(&quot;../assets/images/mobile/background/01.png&quot;);
-        z-index: -1;
         height: 634px;
       "
     >
- <!-- <div class="mobBg"></div> -->
       <section class="d-flex align-items-center flex-column pt-64">
         <h2 class="fs-md-48 fw-bold fs-24">開始約會</h2>
       </section>
     </div>
 
     <%- include('./layout/main') -%> <%- include('./layout/comment') -%> <%-
-    include('./layout/hire') -%> <%- include('./layout/playComment') -%>
-    <div class="mt-lg-480 mt-60">
-      <!-- footer的部份先暫時這樣推，原則上等footer前二個區塊做完應該不用額外推 -->
-    </div>
-    <%- include('./layout/footer') -%>
+    include('./layout/hire') -%> <%- include('./layout/playComment') -%> <%-
+    include('./layout/footer') -%>
     <div class="right fixedIcon position-relative d-flex justify-content-end">
       <a
         href="#"

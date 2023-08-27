@@ -3,19 +3,20 @@
   left: 260px;
 }
 
-.mobBg::after {
-  content: "";
-  background-image: url("../assets/images/mobile/decoration/ds.svg");
-  width: 271px ;
-  height: 43px ;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  // object-fit: cover;
-  z-index: 100;
-  // position: center;
-
+.mobBg::after{
+  content:'';
+  // display: block;
+    width: 271px;
+    height: 43px;
+    background-image: url('/assets/images/mobile/decoration/ds.svg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
 }
+
 
 .img {
   width: 100%;
