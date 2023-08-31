@@ -1,0 +1,22 @@
+.playComment{
+    height: 391px;
+}
+
+.comment{
+    width: 1076px;
+    top: 90px;
+}
+
+.commentBtn{
+    background: linear-gradient(#F3827E, #F26A7C);
+}
+
+.commentBtn:hover{
+    background: linear-gradient(#F5AFA8, #F3827E);
+}
+
+@media (max-width: 920px) {
+    .comment {
+        width: 351px;
+    }
+  }
