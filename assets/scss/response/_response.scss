@@ -20,8 +20,8 @@
   .mainContent {
     display: flex !important;
   }
-  .position-adjust{
-    top:0px;
+  .position-adjust {
+    top: 0px;
   }
 }
 
@@ -120,7 +120,7 @@
   .overflowX ul li {
     min-width: 80% !important;
     min-height: 100% !important;
-    margin: auto!important;
+    margin: auto !important;
   }
   .mainContent {
     display: none !important;
@@ -227,35 +227,35 @@
 }
 
 @include media-breakpoint-down(lg) {
-  .hire ul li{
-  width: 70%;
-  margin: 0 auto;
+  .hire ul li {
+    width: 70%;
+    margin: 0 auto;
   }
-  }
+}
 
 @include media-breakpoint-up(xl) {
-  .hire ul li h2{
+  .hire ul li h2 {
     font-size: 2.5rem;
   }
 }
 
 @include media-breakpoint-only(md) {
-  .hire ul li h2{
+  .hire ul li h2 {
     font-size: calc(1.375rem + 1.5vw);
   }
 }
 
 @media (max-width: 413.98px) {
-  .hire ul li h5{
+  .hire ul li h5 {
     font-size: 0.75rem;
   }
-  .hire ul li h2{
+  .hire ul li h2 {
     font-size: 1.2rem;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .playComment{
+  .playComment {
     height: 391px;
   }
   .comment {
@@ -263,7 +263,7 @@
     padding: 48px 72px;
     top: -75px;
   }
-  .vector{
+  .vector {
     top: -50px;
     left: -25px;
   }
@@ -276,16 +276,27 @@
 }
 
 @include media-breakpoint-down(lg) {
-  .playComment{
+  .playComment {
     height: 500px;
   }
 
   .comment {
     width: 351px;
     padding: 36px 12px;
-    }
-  .vector{
+  }
+  .vector {
     top: -50px;
     left: -10px;
+  }
+}
+
+@media (max-width: 1450px) {
+  .commentLeft {
+    left: 0px;
+    display: none !important;
+  }
+  .commentRight {
+    right: 0px;
+    display: none !important;
   }
 }
