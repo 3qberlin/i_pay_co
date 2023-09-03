@@ -203,6 +203,17 @@
     margin-top: 12px;
     margin-bottom: 24px;
   }
+  .commentService ul li {
+    min-width: 80%;
+    padding: 20px 16px !important;
+  }
+  .commentService ul {
+    justify-content: start !important;
+    margin-top: 40px !important;
+  }
+  .commentService ul li p {
+    margin-top: 16px !important;
+  }
 }
 
 @media (max-width: 768px) {
